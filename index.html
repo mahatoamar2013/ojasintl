@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <title>Ojas International</title>
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ojas International Pvt. Ltd. — CCTV, Networking & IT Solutions, Bhaktapur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@600;700;800&family=Playfair+Display:wght@700;900&family=Raleway:wght@700;900&family=Cinzel+Decorative:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="logo" href="#">
+    <img class="logo-img" src="images/logo.png" alt="Ojas International Logo">
+    <div class="logo-name">
+        <span class="ln-ojas"><h3>OJAS</h3></span><span class="ln-intl"> <h3>INTERNATIONAL</h3></span>
+        <span class="ln-pvt">Pvt. Ltd.</span>
+      </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#brands">Brands</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Get a Quote</a>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#services" onclick="toggleMenu()">Services</a>
+  <a href="#why" onclick="toggleMenu()">Why Us</a>
+  <a href="#brands" onclick="toggleMenu()">Brands</a>
+  <a href="#process" onclick="toggleMenu()">Process</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">Naya Thimi, Bhaktapur &nbsp;·&nbsp; Nepal</div>
+      <h1>Your Trusted Partner for<br><span class="grad">Security &amp; IT Solutions</span></h1>
+      <p class="hero-sub">Ojas International Pvt. Ltd. supplies and installs CCTV cameras, networking infrastructure, air conditioners, and fire safety equipment — keeping homes and businesses safe, connected, and comfortable.</p>
+      <div class="hero-actions">
+        <a href="#services" class="btn-primary">Our Services</a>
+        <a href="#contact" class="btn-ghost">Get a Free Quote</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-val">150<span>+</span></div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div>
+          <div class="stat-val">5<span>+</span></div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div>
+          <div class="stat-val">24/7</div>
+          <div class="stat-label">Support Available</div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero visual -->
+    <div class="hero-visual">
+      <div class="hero-img-main">
+        <img src="images/hik.jpg" alt="CCTV Security Installation" loading="lazy">
+      </div>
+      <div class="hero-img-row">
+        <div class="hero-img-small">
+          <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&q=80" alt="Network Infrastructure" loading="lazy">
+        </div>
+        <div class="hero-img-small">
+          <img src="images/ac1.jpg?w=400&q=80" alt="Air Conditioning" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-eyebrow ey-blue">What We Do</div>
+  <h2>Products &amp; Services We Offer</h2>
+  <p class="section-lead">From supply and installation to after-sales maintenance — reliable solutions for security, connectivity, comfort, and safety.</p>
+  <div class="services-grid">
+
+    <div class="svc-card reveal">
+      <div class="svc-img">
+        <img src="images/cctv.jpg" alt="CCTV Camera Systems" loading="lazy">
+        <div class="svc-img-overlay"></div>
+      </div>
+      <div class="svc-body">
+        <div class="svc-icon-pill pill-green">📷 CCTV Systems</div>
+        <h3>CCTV Camera Systems</h3>
+        <p>Supply, installation &amp; maintenance of IP and analog CCTV. HD, PTZ, night-vision, and remote-monitoring setups for homes, offices &amp; commercial sites.</p>
+      </div>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-img">
+        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&q=80" alt="Networking" loading="lazy">
+        <div class="svc-img-overlay"></div>
+      </div>
+      <div class="svc-body">
+        <div class="svc-icon-pill pill-cyan">🌐 Networking</div>
+        <h3>Networking &amp; Connectivity</h3>
+        <p>Structured cabling, Wi-Fi installation, router &amp; switch configuration, and full LAN/WAN setup for homes, offices, and multi-floor buildings.</p>
+      </div>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-img">
+        <img src="images/ac.webp" alt="Air Conditioning" loading="lazy">
+        <div class="svc-img-overlay"></div>
+      </div>
+      <div class="svc-body">
+        <div class="svc-icon-pill pill-purple">❄️ Air Conditioning</div>
+        <h3>Air Conditioner Services</h3>
+        <p>Supply &amp; installation of split, cassette, and ducted AC systems. Regular servicing, gas refilling &amp; repair for all major brands.</p>
+      </div>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-img">
+        <img src="images/fire.jpg" alt="Fire Safety" loading="lazy">
+        <div class="svc-img-overlay"></div>
+      </div>
+      <div class="svc-body">
+        <div class="svc-icon-pill pill-red">🔥 Fire Safety</div>
+        <h3>Fire Extinguishers</h3>
+        <p>Supply of certified fire extinguishers for commercial &amp; residential use, plus refilling, inspection, and compliance servicing.</p>
+      </div>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-img">
+        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80" alt="Maintenance" loading="lazy">
+        <div class="svc-img-overlay"></div>
+      </div>
+      <div class="svc-body">
+        <div class="svc-icon-pill pill-green">🔧 Maintenance</div>
+        <h3>Annual Maintenance Contracts</h3>
+        <p>Scheduled AMC packages for CCTV systems, networking equipment, and air conditioners — ensuring uninterrupted operation year-round.</p>
+      </div>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-img">
+        <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=600&q=80" alt="IT Consultation" loading="lazy">
+        <div class="svc-img-overlay"></div>
+      </div>
+      <div class="svc-body">
+        <div class="svc-icon-pill pill-purple">🛡️ Consultation</div>
+        <h3>IT &amp; Security Consultation</h3>
+        <p>On-site assessment and planning for camera placement, network design, and fire safety requirements tailored to your premises.</p>
+      </div>
+    </div>
+<div class="svc-card reveal">
+      <div class="svc-img">
+        <img src="images/ups.jpg" alt="UPS & Power Backup" loading="lazy">
+        <div class="svc-img-overlay"></div>
+      </div>
+      <div class="svc-body">
+        <div class="svc-icon-pill pill-blue">🔋 UPS & Power Backup</div>
+        <h3>UPS Systems</h3>
+        <p>Supply and installation of UPS units for homes, offices, and businesses. Ensures uninterrupted power for computers, CCTV systems, and critical equipment during outages.</p>
+      </div>
+    </div>
+  <div class="svc-card reveal">
+      <div class="svc-img">
+        <img src="images/appliance.jpg" alt="Home Appliances" loading="lazy">
+        <div class="svc-img-overlay"></div>
+      </div>
+      <div class="svc-body">
+        <div class="svc-icon-pill pill-purple">🏠 Home Appliances</div>
+        <h3>Home Appliances</h3>
+        <p>Supply of a wide range of home appliances including refrigerators, washing machines, televisions, and more — from trusted brands at competitive prices.</p>
+      </div>
+    </div>
+  <div class="svc-card reveal">
+      <div class="svc-img">
+        <img src="images/pabx.png" alt="PABX & IP Telephone" loading="lazy">
+        <div class="svc-img-overlay"></div>
+      </div>
+      <div class="svc-body">
+        <div class="svc-icon-pill pill-red">📞 PABX & IP Telephone</div>
+        <h3>PABX & IP Telephone</h3>
+        <p>Supply and installation of PABX switchboards and IP telephone systems for offices, hotels, and enterprises — enabling seamless internal and external communication.</p>
+      </div>
+    </div>
+  <div class="svc-card reveal">
+      <div class="svc-img">
+        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80" alt="Door Access Control" loading="lazy">
+        <div class="svc-img-overlay"></div>
+      </div>
+      <div class="svc-body">
+        <div class="svc-icon-pill pill-green">🚪 Access Control</div>
+        <h3>Door Access Control Systems</h3>
+        <p>Biometric, card-based, and PIN access control solutions for offices, warehouses, and restricted areas — securing your premises with full audit trails.</p>
+      </div>
+    </div>
+    </div>
+    </div>
+
+</section>
+
+<!-- WHY US -->
+<section id="why" style="padding:90px 5vw;">
+  <div class="why-img-stack reveal">
+    <div class="why-main-img">
+      <img src="images/office.JPG" alt="Professional technician at work" loading="lazy">
+    </div>
+    <div class="why-badge-card">
+      <div class="num">5+</div>
+      <div class="lbl">Years of Experience</div>
+    </div>
+  </div>
+  <div>
+    <div class="section-eyebrow ey-cyan">Why Choose Us</div>
+    <h2>A Reliable Local Partner You Can Count On</h2>
+    <p class="section-lead" style="margin-bottom:28px;">We combine quality products, skilled technicians, and prompt after-sales support to give you peace of mind long after installation.</p>
+    <div class="why-items">
+      <div class="why-item reveal">
+        <div class="why-dot dot-blue">✅</div>
+        <div><h4>Genuine Products</h4><p>We source from certified, reputable brands — no counterfeits or low-quality substitutes, ever.</p></div>
+      </div>
+      <div class="why-item reveal">
+        <div class="why-dot dot-cyan">👷</div>
+        <div><h4>Experienced Technicians</h4><p>Hands-on expertise across residential, commercial, and industrial installations — done right the first time.</p></div>
+      </div>
+      <div class="why-item reveal">
+        <div class="why-dot dot-orange">⚡</div>
+        <div><h4>Fast Response &amp; Support</h4><p>Prompt support and quick on-site visits to keep your systems running without costly downtime.</p></div>
+      </div>
+      <div class="why-item reveal">
+        <div class="why-dot dot-green">💰</div>
+        <div><h4>Competitive Pricing</h4><p>Transparent, honest quotes with no hidden fees — quality solutions that respect your budget.</p></div>
+      </div>
+      <div class="why-item reveal">
+        <div class="why-dot dot-purple">📍</div>
+        <div><h4>Local Presence in Bhaktapur</h4><p>Based in Naya Thimi — faster site visits, better understanding of local needs, and a team you can visit face-to-face.</p></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</section>
+
+<!-- BRANDS -->
+<section id="brands">
+  <div class="section-eyebrow ey-orange" style="text-align:center;">
+    Trusted Brands
+  </div>
+
+  <h2 style="text-align:center;">
+    Authorized Brands We Deal With
+  </h2>
+
+  <p class="section-lead" style="margin:0 auto 50px;text-align:center;">
+    Partnering with globally trusted brands to deliver reliable security,
+    IT, power backup, and consumer electronics solutions.
+  </p>
+
+  <div class="brand-slider">
+    <div class="brand-track">
+
+      <!-- First Set -->
+      <div class="brand-logo"><img src="images/brands/hikvision.png" alt="Hikvision"></div>
+      <div class="brand-logo"><img src="images/brands/dahua.png" alt="Dahua"></div>
+      <div class="brand-logo"><img src="images/brands/jovision.png" alt="Jovision"></div>
+      <div class="brand-logo"><img src="images/brands/zkteco.png" alt="ZKTeco"></div>
+      <div class="brand-logo"><img src="images/brands/luminous.png" alt="Luminous"></div>
+      <div class="brand-logo"><img src="images/brands/exide.png" alt="Exide"></div>
+      <div class="brand-logo"><img src="images/brands/livfast.png" alt="Livfast"></div>
+      <div class="brand-logo"><img src="images/brands/lenovo.png" alt="Lenovo"></div>
+      <div class="brand-logo"><img src="images/brands/asus.png" alt="Asus"></div>
+      <div class="brand-logo"><img src="images/brands/dell.png" alt="Dell"></div>
+      <div class="brand-logo"><img src="images/brands/acer.png" alt="Acer"></div>
+      <div class="brand-logo"><img src="images/brands/sandisk.png" alt="SanDisk"></div>
+      <div class="brand-logo"><img src="images/brands/wd.png" alt="Western Digital"></div>
+      <div class="brand-logo"><img src="images/brands/haier.png" alt="Haier"></div>
+      <div class="brand-logo"><img src="images/brands/samsung.png" alt="Samsung"></div>
+      <div class="brand-logo"><img src="images/brands/spower.png" alt="S-Power"></div>
+      <div class="brand-logo"><img src="images/brands/tcl.png" alt="TCL"></div>
+      <div class="brand-logo"><img src="images/brands/digicom.png" alt="Digicom"></div>
+
+      <!-- Duplicate Set for Infinite Loop -->
+      <div class="brand-logo"><img src="images/brands/hikvision.png" alt="Hikvision"></div>
+      <div class="brand-logo"><img src="images/brands/dahua.png" alt="Dahua"></div>
+      <div class="brand-logo"><img src="images/brands/jovision.png" alt="Jovision"></div>
+      <div class="brand-logo"><img src="images/brands/zkteco.png" alt="ZKTeco"></div>
+      <div class="brand-logo"><img src="images/brands/luminous.png" alt="Luminous"></div>
+      <div class="brand-logo"><img src="images/brands/exide.png" alt="Exide"></div>
+      <div class="brand-logo"><img src="images/brands/livfast.png" alt="Livfast"></div>
+      <div class="brand-logo"><img src="images/brands/lenovo.png" alt="Lenovo"></div>
+      <div class="brand-logo"><img src="images/brands/asus.png" alt="Asus"></div>
+      <div class="brand-logo"><img src="images/brands/dell.png" alt="Dell"></div>
+      <div class="brand-logo"><img src="images/brands/acer.png" alt="Acer"></div>
+      <div class="brand-logo"><img src="images/brands/sandisk.png" alt="SanDisk"></div>
+      <div class="brand-logo"><img src="images/brands/wd.png" alt="Western Digital"></div>
+      <div class="brand-logo"><img src="images/brands/haier.png" alt="Haier"></div>
+      <div class="brand-logo"><img src="images/brands/samsung.png" alt="Samsung"></div>
+      <div class="brand-logo"><img src="images/brands/spower.png" alt="S-Power"></div>
+      <div class="brand-logo"><img src="images/brands/tcl.png" alt="TCL"></div>
+      <div class="brand-logo"><img src="images/brands/digicom.png" alt="Digicom"></div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="section-eyebrow ey-purple">How We Work</div>
+  <h2>Simple &amp; Hassle-Free from Start to Finish</h2>
+  <p class="section-lead">From your first enquiry to long-term maintenance — a smooth process at every step.</p>
+  <div class="process-grid">
+    <div class="process-line"></div>
+    <div class="process-step reveal">
+      <div class="step-circle sc1">1</div>
+      <h4>Enquiry &amp; Consultation</h4>
+      <p>Call or visit us. We understand your needs, assess your site, and recommend the right products.</p>
+    </div>
+    <div class="process-step reveal">
+      <div class="step-circle sc2">2</div>
+      <h4>Quotation</h4>
+      <p>Clear, itemised quote with product specs and installation costs — no hidden charges.</p>
+    </div>
+    <div class="process-step reveal">
+      <div class="step-circle sc3">3</div>
+      <h4>Procurement</h4>
+      <p>Once approved, we source genuine products promptly and keep you updated on timelines.</p>
+    </div>
+    <div class="process-step reveal">
+      <div class="step-circle sc4">4</div>
+      <h4>Installation</h4>
+      <p>Trained technicians install and configure your system neatly with minimal disruption.</p>
+    </div>
+    <div class="process-step reveal">
+      <div class="step-circle sc5">5</div>
+      <h4>After-Sales Support</h4>
+      <p>Warranty handover, user training, and ongoing servicing, repairs &amp; AMC contracts.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrapper">
+    <div class="contact-left">
+      <div class="section-eyebrow ey-cyan">Get in Touch</div>
+      <h2>Get a Free Quote Today</h2>
+      <p style="color:var(--gray-400);font-size:1rem;line-height:1.7;max-width:400px;">Visit our office, call, or drop an email — we're happy to discuss your requirements and provide a no-obligation quote.</p>
+      <div class="contact-info">
+        <div class="c-item reveal">
+          <div class="c-icon ci-blue">📍</div>
+          <div><h4>Office Address</h4><p>Naya Thimi, Bhaktapur, Nepal</p></div>
+        </div>
+        <div class="c-item reveal">
+          <div class="c-icon ci-cyan">✉️</div>
+          <div><h4>Email Us</h4><a href="mailto:contact@ojasintl.com.np">contact@ojasintl.com.np</a></div>
+        </div>
+        <div class="c-item reveal">
+          <div class="c-icon ci-orange">📞</div>
+          <div><h4>Call / WhatsApp</h4><a href="tel:+9779801989840">+977 9801989840</a></div>
+        </div>
+        <div class="c-item reveal">
+          <div class="c-icon ci-green">🕐</div>
+          <div><h4>Business Hours</h4><p>Sunday – Friday: 10:00 AM – 6:00 PM (NPT)</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h3 style="font-family:'Syne',sans-serif;font-size:1.2rem;font-weight:700;color:#fff;margin-bottom:4px;">Send Us a Message</h3>
+      <p style="font-size:13px;color:var(--gray-500);margin-bottom:8px;">We typically respond within a few hours.</p>
+      <div class="form-row">
+        <div class="field"><label>Full Name</label><input type="text" placeholder="Your name"></div>
+        <div class="field"><label>Phone / Email</label><input type="text" placeholder="+977 or email"></div>
+      </div>
+      <div class="field">
+        <label>Service Needed</label>
+        <select>
+          <option value="" disabled selected>Select a service…</option>
+          <option>CCTV Camera Supply &amp; Installation</option>
+          <option>Networking &amp; Connectivity</option>
+          <option>Air Conditioner Supply &amp; Installation</option>
+          <option>AC Servicing &amp; Repair</option>
+          <option>Fire Extinguisher Supply &amp; Refilling</option>
+          <option>Annual Maintenance Contract (AMC)</option>
+          <option>IT &amp; Security Consultation</option>
+          <option>Other / Not Sure</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Message</label>
+        <textarea placeholder="Describe what you need — e.g. 4 CCTV cameras for a shop, AC installation for 2 rooms…"></textarea>
+      </div>
+      <button class="form-submit" onclick="handleSubmit(this)">Send Message →</button>
+    </div>
+  </div>
+</section>
+<body>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.4256999924573!2d85.38482047616519!3d27.67323477620213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b7c8f0df8a1%3A0x2549f78f09bd28ca!2sOjas%20International%20Pvt%20Ltd%20(Hikvision%20Nepal)!5e0!3m2!1sen!2sin!4v1781317051072!5m2!1sen!2sin" width="1680" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-about">
+      <a class="logo" href="#">
+        <img class="logo-img" src="images/logo.png" alt="Ojas International Logo">
+        <div class="logo-name">
+        <span class="ln-ojas">OJAS</span><span class="ln-intl"> INTERNATIONAL</span>
+        <span class="ln-pvt">Pvt. Ltd.</span>
+      </div>
+      </a>
+      <p>Supplying and installing CCTV cameras, networking, air conditioners, and fire safety equipment across Bhaktapur and Nepal since 2020.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Services</h5>
+      <ul>
+        <li><a href="#services">CCTV Cameras</a></li>
+        <li><a href="#services">Networking</a></li>
+        <li><a href="#services">Air Conditioners</a></li>
+        <li><a href="#services">Fire Extinguishers</a></li>
+        <li><a href="#services">AMC &amp; Support</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="#why">About Us</a></li>
+        <li><a href="#process">Our Process</a></li>
+        <li><a href="#brands">Brands</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <ul>
+        <li><a href="mailto:contact@ojasintl.com.np">contact@ojasintl.com.np</a></li>
+        <li><a href="tel:+9779801989840">+977 9801989840</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100063137055470">Facebook</a></li>
+        <li><a href="www.instagram.com/ojasintl">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Ojas International Pvt. Ltd. All rights reserved. · Naya Thimi, Bhaktapur, Nepal</p>
+    <div class="socials">
+      <a class="soc-btn" href="https://www.facebook.com/profile.php?id=100063137055470" target aria-label="Facebook">f</a>
+      <a class="soc-btn" href="https://www.instagram.com/ojasintl/" aria-label="Instagram">ig</a>
+      <a class="soc-btn" href="https://wa.me/9779801989840" target="_blank" aria-label="WhatsApp">wa</a>
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
